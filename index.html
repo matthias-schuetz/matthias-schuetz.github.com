@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Matthias Schuetz [JavaScript]</title>
-		<meta charset="utf-8" />
-		<style type="text/css">
-			html {
-				padding:35px;
-				font-family:Arial, sans-serif;
-				font-weight:bold;
-				font-size:2.5em;
-			}
-			
-			p {
-				margin:5px 0 25px 0;
-				padding:8px 12px;
-				color:#ffffff;
-				background:#20d9ce;
-				float:left;
-				clear:both;
-			}
-			
-			p.small {
-				font-size:0.8em;
-			}
-			
-			ul {
-				margin:0;
-				padding:0;
-				list-style-type:none;
-				float:left;
-				clear:both;
-			}
-			
-			li {
-				margin-bottom:10px;
-				font-size:0.6em;
-				float:left;
-				clear:both;
-			}
-			
-			a {
-				padding:10px;
-				color:#ffffff;
-				background:#42df93;
-				text-decoration:none;
-				float:left;
-				clear:both;
-			}
-		</style>
+		<title>Web Development Tools | the complete collection | by Matthias Schütz</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" lang="en" content="The Web Development Tools project is an overview of all resources by Matthias Schütz. It contains useful scripts and resources for web developers." />
+		<meta name="author" content="Matthias Schuetz" />
+		<link href="http://fonts.googleapis.com/css?family=Ruda:400,700" rel="stylesheet" type="text/css">
+		<link href="webdevtools/css/styles.css" rel="stylesheet" type="text/css">
+		<link rel="shortcut icon" href="favicon.ico" />
 	</head>
-
 	<body>
-		<p>Hello, I'm Matthias.</p>
-		<p class="small">You will find my JavaScript projects here. <br />The new page is coming up soon.</p>
-		<p class="small">Below you'll find my existing projects.</p>
-		<ul>
-			<li><a href="http://matthiasschuetz.com/three-basicthirdpersongame/">THREE.BasicThirdPersonGame</a></li>
-			<li><a href="https://github.com/matthias-schuetz/CustomScrollbar">CustomScrollbar.js</a></li>
-			<li><a href="http://htmlivecode.com/canvas-animation-playground/">HTML5 Canvas Animation Playground</a></li>
-			<li><a href="http://htmlivecode.com/">HTMLiveCode</a></li>
-			<li><a href="https://github.com/matthias-schuetz/LazyReload">LazyReload</a></li>
-			<li><a href="https://github.com/matthias-schuetz/karma-htmlfile-reporter">karma-htmlfile-reporter</a></li>
-			<li><a href="https://github.com/matthias-schuetz/HoverCrossfade">jQuery HoverCrossfade</a></li>
-		</ul>
+		<div id="header">
+			<div id="logo"></div>
+			<div id="infolink" class="button">Info</div>
+		</div>
+		<div id="nav">
+			<div id="nav-container">
+				<div class="nav-block">
+					<div class="head-link" data-target="webdev">Web Development</div>
+					<div class="dot-link" data-target-project="webdev.pixelzoomer">PixelZoomer</div>
+					<div class="dot-link" data-target-project="webdev.autoreload">AutoReload</div>
+					<div class="dot-link" data-target-project="webdev.canvasplayground">Canvas Animation Playground</div>
+					<div class="dot-link" data-target-project="webdev.htmlivecode">HTMLiveCode</div>
+					<div class="dot-link" data-target-project="webdev.simplewebserver">SimpleWebServer</div>
+					<div class="dot-link" data-target-project="webdev.karmahtmlreporter">Karma HTMLfile Reporter</div>
+					<div class="dot-link" data-target-project="webdev.lazyreload">LazyReload</div>
+				</div>
+				
+				<div class="nav-block">
+					<div class="head-link" data-target="comps">Comparisons</div>
+					<div class="dot-link" data-target-project="comps.mobileappmatrix">Mobile App Framework Matrix</div>
+					<div class="dot-link" data-target-project="comps.javascriptmatrix">JavaScript Framework Matrix</div>
+				</div>
+				
+				<div class="nav-block">
+					<div class="head-link" data-target="ui">User Interface Design</div>
+					<div class="dot-link" data-target-project="ui.tooltip">Tooltip.js</div>
+					<div class="dot-link" data-target-project="ui.customscrollbar">CustomScrollbar.js</div>
+					<div class="dot-link" data-target-project="ui.jqhovercrossfade">jQuery HoverCrossfade</div>
+				</div>
+				
+				<div class="nav-block">
+					<div class="head-link" data-target="gamedev">Game Development</div>
+					<div class="dot-link" data-target-project="gamedev.threebasicgame">THREE.BasicThirdPersonGame</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">&copy; 2015 <a href="http://matthiasschuetz.com/en">Matthias Schütz</a> <span>&ndash;</span> Made with <a href="http://famous.org">Famous</a> <span>&#9829;</span></div>
+		<div id="famous-content">
+			<div id="infowindow" class="hidden">
+				<div id="infowindow-content">
+					<div id="infowindow-titlebar">
+						<h1 id="infowindow-title"></h1>
+						<h2 id="infowindow-subtitle"></h2>
+						<div id="infowindow-close">&times;</div>
+					</div>
+					<div id="infowindow-imagerow">
+						<img src="" id="infowindow-image" />
+					</div>
+					<div id="infowindow-text"></div>
+					<a href="#" id="infowindow-websitelink" class="button button-large">Website</a>
+				</div>
+			</div>
+			<div id="famous-fog"></div>
+		</div>
+		<script src="webdevtools/bundle.js"></script>
 	</body>
 </html>
