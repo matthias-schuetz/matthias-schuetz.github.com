@@ -1,0 +1,34 @@
+.header {
+  margin-bottom: 15px; }
+
+.header-container {
+  margin-top: 60px; }
+
+.header-title {
+  margin-bottom: 2px;
+  color: #ffffff; }
+  .header-title sup {
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #ffa8aa; }
+
+.header-subtitle {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.45;
+  color: #ffa8aa; }
+
+.header-nav {
+  margin: 29px 0 29px 0; }
+  .header-nav > li > a {
+    border-color: #ffa8aa;
+    color: #ffffff; }
+    .header-nav > li > a:hover:not(.active) {
+      border-color: #ff6469;
+      background-color: #f94047; }
+    .header-nav > li > a.active {
+      border-color: #ff6469;
+      background-color: #E03237;
+      color: #ffa8aa; }

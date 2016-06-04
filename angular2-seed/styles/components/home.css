@@ -1,0 +1,10 @@
+.file-structure {
+  margin-top: 0;
+  padding-left: 0;
+  list-style-type: none; }
+  .file-structure li {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+    .file-structure li.lvl2 {
+      margin-left: 16px; }
+    .file-structure li .icon {
+      margin-right: 6px; }

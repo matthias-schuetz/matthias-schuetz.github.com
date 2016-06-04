@@ -1,0 +1,8 @@
+.pointer {
+  cursor: pointer; }
+
+[type="submit"][disabled] {
+  opacity: 0.5;
+  cursor: default; }
+  [type="submit"][disabled]:hover {
+    background: #E03237; }
