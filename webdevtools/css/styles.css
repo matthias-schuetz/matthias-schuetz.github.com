@@ -136,13 +136,15 @@ em {
 	-moz-user-select:none;
 	-ms-user-select:none;
 	user-select:none;
+	overflow:visible;
+    pointer-events:none;
 	z-index:2;
 }
 
 #famous-content {
 	position:absolute;
 	top:76px;
-	bottom:240px;
+	bottom:260px;
 	left:0;
 	right:0;
 	overflow:hidden;
@@ -170,7 +172,7 @@ em {
 	left:0;
 	right:0;
 	bottom:25px;
-	height:215px;
+	height:235px;
 }
 
 #nav-container {
