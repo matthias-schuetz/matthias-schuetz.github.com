@@ -7,6 +7,7 @@
  * Free to use under the MIT license
  */
 
+ 
 var CustomScrollbar = function(options) {
 	var _scrollbar;
 	var _scrollbarThumb;
